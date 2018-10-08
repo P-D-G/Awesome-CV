@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\definecolor{awesome}{HTML}{FF7700} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\input{cv-sections/info.tex}
+
+\makecvfooter{}{John Doe~~~·~~~Cover Letter}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\recipient{Company}{10 Street Name \\00000 City} % The company being applied to
+
+\letterdate{\today} % The date on the letter, default is the date of compilation
+
+\lettertitle{Spontaneous application} % The title of the letter
+
+\letteropening{Dear Mrs, Dear Mr,} % How the letter is opened
+
+\letterclosing{Best regards,} % How the letter is closed
+
+\letterenclosure[Attached]{Resume} % Any enclosures with the letter
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader[R] % Print the header
+
+\makelettertitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cvletter}
+
+%------------------------------------------------
+
+%\lettersection{You}
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu eleifend quam, sit amet molestie metus. Integer rutrum pellentesque ligula ac pulvinar. Aliquam erat volutpat. Donec placerat porta urna, sollicitudin pretium ipsum pharetra non. Phasellus venenatis enim at turpis ultrices molestie. Nullam nec accumsan lorem, at facilisis nulla. Vestibulum gravida risus quis imperdiet eleifend. Phasellus varius facilisis dolor fermentum pharetra. Maecenas pretium luctus diam, non consequat arcu aliquet eu. 
+
+%------------------------------------------------
+
+%\lettersection{Me}
+
+ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean aliquam dui arcu, id consectetur elit vulputate a. Donec pretium nisi quis ornare efficitur. Sed eu leo mollis nunc viverra ultricies. Nam a vehicula sem, finibus consectetur nunc. Donec eu aliquam dui, ac placerat ex. Duis in magna tincidunt, sagittis mauris et, accumsan turpis. Nunc ac massa vel enim scelerisque elementum. Curabitur varius libero quis posuere ultricies. 
+%------------------------------------------------
+
+%\lettersection{Us}
+
+ Maecenas ut dui ut nunc mollis tristique sit amet sed ligula. Vestibulum tempus dolor velit, at tristique lacus euismod at. Vivamus nec lacus diam. Integer scelerisque fermentum odio, vel rhoncus nunc porttitor et. Aenean pharetra nulla eget iaculis fermentum. Proin pellentesque, justo in ornare volutpat, odio lorem commodo mi, vel dictum nulla nisl in nulla. Nam ut sem dui. Vestibulum tristique, sapien eget consequat accumsan, libero nisl imperdiet erat, eget pulvinar metus tortor at est. Vestibulum massa turpis, volutpat ut elementum ac, pretium a diam. Cras posuere blandit neque, quis dignissim nisl dignissim nec. Aliquam laoreet aliquet metus, in molestie nulla elementum in. Donec faucibus viverra tortor vitae laoreet. 
+%------------------------------------------------
+
+\end{cvletter}
+
+%----------------------------------------------------------------------------------------
+
+\makeletterclosing % Print the signature and enclosures
+
+\end{document}
